@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Jhon Mesones - Software &amp; Full Stack Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070F1E"/>
+      <stop offset="60%" stop-color="#0D1A33"/>
+      <stop offset="100%" stop-color="#122342"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1.8" cy="1.8" r="1.1" fill="#A5B4FC" opacity=".20"/>
+    </pattern>
+    <radialGradient id="glow"><stop offset="0" stop-color="#38BDF8" stop-opacity=".16"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="350" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="350" fill="url(#bg)"/>
+    <rect width="1200" height="350" fill="url(#dots)"/>
+    <ellipse cx="925" cy="145" rx="430" ry="310" fill="url(#glow)"/>
+    <path d="M0 349H1200" stroke="#38BDF8" stroke-opacity=".50" stroke-width="3"/>
+    <path d="M35 60V30H125" stroke="#38BDF8" stroke-opacity=".55" stroke-width="2" fill="none"/>
+    <rect x="74" y="48" width="10" height="10" rx="2" fill="#38BDF8"/>
+    <text x="94" y="58" fill="#7DD3FC" font-size="15" font-weight="700" letter-spacing="2.9" font-family="DejaVu Sans,Arial,sans-serif">MESONESJHON  /  DEVELOPER PORTFOLIO</text>
+    <text x="73" y="147" fill="#F8FAFC" font-size="59" font-weight="800" letter-spacing="-2" font-family="DejaVu Sans,Arial,sans-serif">JHON MESONES</text>
+    <rect x="74" y="170" width="64" height="4" rx="2" fill="url(#accent)"/>
+    <text x="73" y="211" fill="#B7C7DD" font-size="25" font-family="DejaVu Sans,Arial,sans-serif">Software &amp; Full Stack Developer</text>
+    <text x="73" y="244" fill="#7E95B4" font-size="17" font-family="DejaVu Sans,Arial,sans-serif">De las ideas a productos digitales.</text>
+    <g font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing=".9">
+      <rect x="73" y="275" width="98" height="30" rx="8" fill="#122C40" stroke="#265B7C"/><text x="92" y="295" fill="#7DD3FC">LARAVEL</text>
+      <rect x="182" y="275" width="70" height="30" rx="8" fill="#122C40" stroke="#265B7C"/><text x="200" y="295" fill="#7DD3FC">VUE</text>
+      <rect x="263" y="275" width="87" height="30" rx="8" fill="#122C40" stroke="#265B7C"/><text x="282" y="295" fill="#7DD3FC">REACT</text>
+      <rect x="361" y="275" width="116" height="30" rx="8" fill="#122C40" stroke="#265B7C"/><text x="379" y="295" fill="#7DD3FC">REST APIS</text>
+    </g>
+    <g transform="translate(800,55)">
+      <rect x="0" y="0" width="328" height="239" rx="16" fill="#071324" stroke="#35516E" stroke-width="1.5"/>
+      <rect x="0" y="0" width="328" height="43" rx="16" fill="#13243A"/>
+      <rect x="0" y="28" width="328" height="15" fill="#13243A"/>
+      <circle cx="23" cy="22" r="5" fill="#FB7185"/><circle cx="41" cy="22" r="5" fill="#FBBF24"/><circle cx="59" cy="22" r="5" fill="#34D399"/>
+      <text x="109" y="27" fill="#A1B7CE" font-size="13" font-family="DejaVu Sans Mono,monospace">~/portfolio</text>
+      <text x="24" y="88" fill="#67E8F9" font-size="18" font-family="DejaVu Sans Mono,monospace">const developer = {</text>
+      <text x="40" y="123" fill="#BFD7EA" font-size="16" font-family="DejaVu Sans Mono,monospace">focus: <tspan fill="#86EFAC">'full-stack'</tspan>,</text>
+      <text x="40" y="153" fill="#BFD7EA" font-size="16" font-family="DejaVu Sans Mono,monospace">mindset: <tspan fill="#86EFAC">'build'</tspan></text>
+      <text x="24" y="186" fill="#67E8F9" font-size="18" font-family="DejaVu Sans Mono,monospace">};</text>
+      <text x="24" y="220" fill="#6487A6" font-size="14" font-family="DejaVu Sans Mono,monospace">$ git push origin main <tspan fill="#34D399">✓</tspan></text>
+    </g>
+  </g>
+</svg>
