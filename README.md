@@ -38,7 +38,7 @@ Me interesa crear soluciones mantenibles, desarrollar **APIs REST**, organizar p
 **Backend y bases de datos**
 
 <p>
-  <img src="https://skillicons.dev/icons?i=php,laravel,mysql&theme=dark" alt="PHP, Laravel, MySQL y Postgres" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,mysql&theme=dark,postgres" alt="PHP, Laravel, MySQL y Postgres" />
 </p>
 
 **Herramientas**
